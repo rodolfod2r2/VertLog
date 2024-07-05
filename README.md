@@ -1,5 +1,7 @@
 # VertLog
 
+![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/vertlog.png)
+
 ## Descrição
 VertLog é um sistema para gerenciamento de pedidos (buys) desenvolvido em Java com Spring Boot.
 
