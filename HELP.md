@@ -27,3 +27,31 @@ fine, it also inherits unwanted elements like `<license>` and `<developers>` fro
 project POM contains empty overrides for these elements. If you manually switch to a different parent and actually want
 the inheritance, you need to remove those overrides.
 
+# Ajuda - VertLog
+
+## Configuração do MongoDB
+
+Para configurar o MongoDB:
+
+- Abra o arquivo `src/main/resources/application.properties`.
+- Configure `spring.data.mongodb.host` com o endereço do servidor MongoDB.
+- Configure `spring.data.mongodb.port` com a porta do MongoDB (padrão: 27017).
+- Configure `spring.data.mongodb.database` com o nome do banco de dados a ser utilizado.
+
+Exemplo:
+```properties
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=vertlogdb
+```yaml
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://username:password@localhost/?retryWrites=true&w=majority&appName=vertlogdb
+      database: vertlogdb
+
+## Utilizando a API Swagger
+A documentação da API Swagger pode ser acessada em http://localhost:8080/swagger-ui.html após iniciar o aplicativo.
+
+## Upload de Arquivos
+O sistema suporta apenas upload de arquivos no formato .txt. Certifique-se de que o arquivo a ser enviado seja formatado corretamente para evitar erros no processamento.
