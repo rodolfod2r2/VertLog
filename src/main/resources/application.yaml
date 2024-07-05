@@ -1,0 +1,30 @@
+spring:
+  data:
+    mongodb:
+      uri: 
+      database: 
+  application:
+    name: VertLog
+springdoc:
+  swagger-ui:
+    operationsSorter: alpha
+    path: /
+vertlog-swagger:
+  server:
+    url: /
+    description: API VertLog - Import Buy
+  info:
+    title: VertLog
+    description: Technical Challenge Project
+    version: Versão Beta
+    contact:
+      name: Rodolfo Gonçalves de Luna Freire
+      url: https://www.linkedin.com/in/rodolfo-goncalves-luna-freire/
+      email: rodolfod2r2@gmail.com
+    termsOfServiceUrl: https://rodolfod2r2.medium.com/terms/service/protect/
+    license: Apache License User
+    licenseUrl: https://rodolfod2r2.medium.com/licenses/LICENSE-2.0.html
+
+server:
+  error:
+    include-stacktrace: ON_PARAM
