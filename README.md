@@ -30,6 +30,8 @@ VertLog é um sistema para gerenciamento de pedidos (buys) desenvolvido em Java 
 - Acesse a documentação da API Swagger para conhecer e testar os endpoints disponíveis.
 - Utilize as funcionalidades CRUD para manipular pedidos.
 - Faça upload de arquivos de pedidos no formato `.txt`.
+- Utilizando a API Swagger a documentação da API Swagger pode ser acessada em http://localhost:8080/swagger-ui.html após iniciar o aplicativo.
+- Upload de Arquivos o sistema suporta apenas upload de arquivos no formato .txt. Certifique-se de que o arquivo a ser enviado seja formatado corretamente para evitar erros no processamento.
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests.
