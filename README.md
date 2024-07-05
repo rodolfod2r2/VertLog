@@ -1,10 +1,5 @@
 # VertLog
 
-## Swagger
-![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/swagger.png) 
-## Diagram
-![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/vertlog.png)
-
 ## Descrição
 VertLog é um sistema para gerenciamento de pedidos (buys) desenvolvido em Java com Spring Boot.
 
@@ -37,6 +32,13 @@ VertLog é um sistema para gerenciamento de pedidos (buys) desenvolvido em Java 
 - Faça upload de arquivos de pedidos no formato `.txt`.
 - Utilizando a API Swagger a documentação da API Swagger pode ser acessada em http://localhost:8080/swagger-ui.html após iniciar o aplicativo.
 - Upload de Arquivos o sistema suporta apenas upload de arquivos no formato .txt. Certifique-se de que o arquivo a ser enviado seja formatado corretamente para evitar erros no processamento.
+
+## Swagger
+![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/swagger.png) 
+## Diagram
+![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/vertlog.png)
+## Java Docs
+![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/javadocs.png)
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests.
