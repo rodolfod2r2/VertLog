@@ -1,5 +1,8 @@
 # VertLog
 
+## Swagger
+![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/swagger.png) 
+##Diagram
 ![info](https://github.com/rodolfod2r2/VertLog/blob/Master/img/vertlog.png)
 
 ## Descrição
